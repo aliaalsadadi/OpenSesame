@@ -43,6 +43,7 @@ OpenSesame is an intelligent door access system that utilizes machine learning f
     - Modify `DOOR_UNLOCK_URL`, username, and password in `CameraStream.java`.
 
 4. **Run the Application:**
+   - Run FaceDatabaseCreaetor.java to populate your vector database with your own pictures
    - Using IntelliJ Set VM options: -Djava.library.path=C:\opencv\build\java\x64
 
     Run CameraStream.java from IntelliJ.
