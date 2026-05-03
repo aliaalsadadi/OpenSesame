@@ -33,7 +33,7 @@ public class CameraStream {
     }
 
     public void startStream() {
-        String rtspURL = "rtsp://admin:Admin@12345@192.168.100.109:554/cam/realmonitor?channel=1&subtype=0";
+        String rtspURL = "rtsp://admin:PASSWORD@192.168.100.109:554/cam/realmonitor?channel=1&subtype=0";
         VideoCapture camera = new VideoCapture();
         camera.open(rtspURL, Videoio.CAP_FFMPEG);
 
