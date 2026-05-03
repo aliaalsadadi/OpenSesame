@@ -20,7 +20,7 @@ public class CameraStream {
     private final FaceEmbedder faceEmbedder;
     private final Map<String, float[]> faceDatabase;
     private static final double RECOGNITION_THRESHOLD = 0.25;
-    private static final String DOOR_UNLOCK_URL = "http://192.168.100.109/cgi-bin/accessControl.cgi?action=openDoor&channel=1";
+    private static final String DOOR_UNLOCK_URL = "YOUR_DOOR_UNLOCK_URL";
 
     static {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
